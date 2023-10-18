@@ -1,0 +1,38 @@
+.user-card-container {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  /* border: 1px solid red; */
+  /* gap: 20px; */
+  box-shadow: 2px 2px 4px 2px lightgrey;
+}
+.user-card-container:hover {
+  box-shadow: 3px 3px 6px 4px lightgrey;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 24px;
+}
+.user-name {
+  font-size: 18px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.user-designation {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #594d6d;
+  margin: 0px;
+}
+
+.user-details-container {
+  margin-left: 12px;
+}
